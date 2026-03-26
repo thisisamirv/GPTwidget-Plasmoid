@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0 http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+  <kcfgfile name="" />
+
+  <group name="General">
+    <!-- === Core Settings === -->
+    <entry name="loadOnStartup" type="Bool">
+      <label>Load website on Plasma startup</label>
+      <default>false</default>
+    </entry>
+
+    <!-- === Privacy & Permissions === -->
+    <entry name="microphoneEnabled" type="Bool">
+      <label>Allow microphone access</label>
+      <default>true</default>
+    </entry>
+    <entry name="geolocationEnabled" type="Bool">
+      <label>Allow websites to access geolocation</label>
+      <default>false</default>
+    </entry>
+
+    <!-- === Storage & Cache === -->
+    <entry name="downloadDirectory" type="String">
+      <label>Default folder for downloads</label>
+      <default></default>
+    </entry>
+    <entry name="cacheDirectory" type="String">
+      <label>Path to the web cache directory</label>
+      <default></default>
+    </entry>
+    <entry name="clearCacheOnExit" type="Bool">
+      <label>Clear browsing cache when closing</label>
+      <default>false</default>
+    </entry>
+
+    <!-- === Browser Behavior === -->
+    <entry name="spatialNavigationEnabled" type="Bool">
+      <label>Enable spatial navigation for keyboard-based browsing</label>
+      <default>false</default>
+    </entry>
+    <entry name="javascriptCanPaste" type="Bool">
+      <label>Allow JavaScript to paste from clipboard</label>
+      <default>true</default>
+    </entry>
+    <entry name="javascriptCanOpenWindows" type="Bool">
+      <label>Allow JavaScript to open new windows</label>
+      <default>true</default>
+    </entry>
+    <entry name="javascriptCanAccessClipboard" type="Bool">
+      <label>Allow JavaScript to access clipboard</label>
+      <default>true</default>
+    </entry>
+    <entry name="playbackRequiresUserGesture" type="Bool">
+      <label>Require user gesture for media playback</label>
+      <default>false</default>
+    </entry>
+    <entry name="focusOnNavigationEnabled" type="Bool">
+      <label>Enable focus on navigation</label>
+      <default>true</default>
+    </entry>
+
+    <!-- === Window State & Geometry === -->
+    <entry name="shouldKeepOpen" type="Bool">
+      <label>Keep the widget open when focus is lost</label>
+      <default>false</default>
+    </entry>
+    <entry name="isPinned" type="Bool">
+      <label>Force the widget to stay on top</label>
+      <default>false</default>
+    </entry>
+    <entry name="centerOnScreen" type="Bool">
+      <label>Center window on screen when opened</label>
+      <default>false</default>
+    </entry>
+    <entry name="lastWindowWidth" type="Int">
+      <label>Last saved width of the widget</label>
+      <default>0</default>
+    </entry>
+    <entry name="lastWindowHeight" type="Int">
+      <label>Last saved height of the widget</label>
+      <default>0</default>
+    </entry>
+  </group>
+</kcfg>
+

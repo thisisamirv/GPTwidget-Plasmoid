@@ -1,0 +1,19 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "thisisamirv@gmail.com",
+                "Name": "Amir Valizadeh"
+            }
+        ],
+        "Category": "Online Services",
+        "Description": "A ChatGPT widget for your KDE Plasma desktop",
+        "Icon": "internet-web-browser",
+        "Id": "GPTwidget-Plasmoid",
+        "License": "GPL-3.0+",
+        "Name": "GPTwidget",
+        "Website": "https://github.com/thisisamirv/GPTwidget-Plasmoid"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}
