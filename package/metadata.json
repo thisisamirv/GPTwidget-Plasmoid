@@ -13,6 +13,7 @@
         "Id": "GPTwidget-Plasmoid",
         "License": "GPL-3.0+",
         "Name": "GPTwidget",
+        "Version": "1.0.0",
         "Website": "https://github.com/thisisamirv/GPTwidget-Plasmoid"
     },
     "X-Plasma-API-Minimum-Version": "6.0"

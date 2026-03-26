@@ -2,7 +2,8 @@
 
 **GPTwidget** is a premium, lightweight ChatGPT Plasmoid for KDE Plasma. It provides a dedicated, privacy-hardened window for your daily AI interactions, perfectly integrated into your desktop.
 
-![GPTwidget](/package/icon.svg)
+![Main Screenshot](/metadata/screenshots/screenshot-main.png)
+![Settings Screenshot](/metadata/screenshots/screenshot-settings.png)
 
 ## Features
 
